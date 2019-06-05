@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/x_Main_ToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/color_bg_green">
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <RelativeLayout
+                android:id="@+id/xIv_Menu"
+                android:layout_width="64dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="10dp">
+            <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/hamburger_icon"
+                    android:scaleType="center"
+            />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/xIv_Menu"
+        >
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                <EditText
+                        android:layout_width="120dp"
+                        android:layout_height="30dp"
+                        android:background="@color/color_white"
+
+                />
+                <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@color/color_bg_login_text"
+                        android:src="@drawable/ic_search"
+                />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+                android:layout_width="64dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="center">
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+            android:src="@drawable/cart_bag_icon"
+            android:layout_margin="5dp"/>
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+</android.support.v7.widget.Toolbar>

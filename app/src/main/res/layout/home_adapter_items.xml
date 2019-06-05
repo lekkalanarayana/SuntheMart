@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+    >
+        <ImageView
+                android:id="@+id/x_Iv_home_veg"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bana_icon"
+                android:scaleType="center"
+                android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Carrot"
+                    android:textColor="@color/color_black"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/txt_size_18"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bid your price"
+                    android:textColor="#505050"
+                    android:textSize="@dimen/txt_size_18"/>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent">
+
+                <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_height="fill_parent"
+                        android:layout_width="0dp"
+                        android:gravity="center"
+                        android:background="@drawable/corner_sharp_comon_background">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="RS."
+                              android:textColor="#505050"
+                              android:textSize="@dimen/txt_size_15"
+                              android:layout_marginLeft="5dp"/>
+                    <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/color_black"
+                            android:layout_marginLeft="2dp"
+                            android:background="@null"
+                    />
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_height="fill_parent"
+                        android:layout_width="0dp"
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center"
+                        android:background="@drawable/corner_sharp_comon_background">
+
+                >
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="KG."
+                            android:textColor="#505050"
+                            android:textSize="@dimen/txt_size_15"
+                            android:layout_marginLeft="5dp"/>
+                    <EditText
+                            android:id="@+id/xEtReg_Username"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:textColor="@color/color_black"
+                            android:background="@null"
+                    />
+
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_height="fill_parent"
+                        android:layout_width="0dp"
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="5dp">
+
+                    >
+                    <ImageView
+                            android:id="@+id/x_Iv_Add"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                    android:src="@drawable/add_to_cart"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

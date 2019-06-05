@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+    android:id="@+id/xGroup1"
+    >
+        <item android:id="@+id/xIt_Home"
+              android:icon="@drawable/ic_search"
+              android:title="profile"/>
+    </group>
+
+
+    <group
+            android:checkableBehavior="single"
+            android:id="@+id/xGroup2">
+        <item android:id="@+id/xIt_yourorder"
+              android:icon="@drawable/ic_search"
+              android:title="your order"/>
+    </group>
+
+    <group android:checkableBehavior="single"
+           android:id="@+id/xGroup3">
+        <item android:id="@+id/xIt_History"
+                android:icon="@drawable/ic_gmail"
+                android:title="History"/>
+    </group>
+    <group android:checkableBehavior="single"
+           android:id="@+id/xGroup4">
+        <item android:id="@+id/xIt_Notifications"
+              android:icon="@drawable/ic_gmail"
+              android:title="Notifications"/>
+    </group>
+    <group android:checkableBehavior="single"
+           android:id="@+id/xGroup5">
+        <item android:id="@+id/xIt_ContactUs"
+              android:icon="@drawable/ic_gmail"
+              android:title="ContactUs"/>
+    </group>
+    <group android:checkableBehavior="single"
+           android:id="@+id/xGroup6">
+        <item android:id="@+id/xIt_Logout"
+              android:icon="@drawable/ic_gmail"
+              android:title="Logout"/>
+    </group>
+    <group android:checkableBehavior="single"
+           android:id="@+id/group1"/>
+
+
+</menu>
